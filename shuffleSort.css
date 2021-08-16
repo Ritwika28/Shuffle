@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #efefef;
+}
+
+.header {
+  text-align: center;
+  background: #fff;
+}
+
+.header > div{
+  font-size:18px;
+  padding:5px 0px;
+  
+}
+
+.footer{
+ text-align: center;
+ margin: 20px;
+}
+
+.footer > span{
+ font-size: 14px;
+}
+
+#container {    
+    display: flex;    
+	  flex-direction: row-reverse;
+	  justify-content: space-between;
+    padding-right:10px;
+	border-top: 3px solid #bfbfbf;
+}
+
+#button-group {
+    width: 20%;
+    text-align: center;
+    display:flex;
+    flex-wrap:wrap;
+	height:30px;
+	margin:20px;
+}
+
+
+#item-group {
+    width: 80%;
+    text-align: center;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#item-group > div{
+  width:33%;
+  line-height:150px;
+  color: #fff;
+  font-size:50px;
+  
+}
+
+.button-style{
+	width:100%;
+	border: 1px solid #73c3dc;
+    border-bottom: 3px solid #2B8EAD;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 0px;
+	background-color: #73c3dc;
+	color:#fff;
+	margin-bottom: 10px;
+}
+
+
+
+.class1{
+background-color: #6F98A8;
+}
+.class2{
+background-color: #2B8EAD;
+}
+.class3{
+background-color: #2F454E;
+}
+.class4{
+background-color: #2B8EAD;
+}
+.class5{
+background-color: #2F454E;
+}
+.class6{
+background-color: #BFBFBF;
+}
+.class7{
+background-color: #BFBFBF;
+}
+.class8{
+background-color: #6F98A8;
+}
+.class9{
+background-color: #2F454E;
+}
+
